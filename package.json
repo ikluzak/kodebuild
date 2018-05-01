@@ -1,0 +1,26 @@
+{
+  "name": "kodebuild",
+  "version": "0.1.2",
+  "description": "Code-Build-like module to build your project from your buildspec.yml",
+  "main": "bin/kodebuild.js",
+  "keywords": [
+    "CodeBuild",
+    "CodePipeline",
+    "yaml",
+    "serverless",
+    "AWS",
+    "buildspec"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "kodebuild": "bin/kodebuild.js"
+  },
+  "author": "Ivan Kluzak",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.230.1",
+    "yamljs": "^0.3.0"
+  }
+}
