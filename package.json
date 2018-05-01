@@ -3,6 +3,10 @@
   "version": "0.1.2",
   "description": "Code-Build-like module to build your project from your buildspec.yml",
   "main": "bin/kodebuild.js",
+  "repository" : {
+      "type" : "git",
+      "url" : "https://github.com/ikluzak/kodebuild.git"
+  },
   "keywords": [
     "CodeBuild",
     "CodePipeline",
