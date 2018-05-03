@@ -10,12 +10,17 @@ Usage:
 	<wait while stuff builds>
 ```
 
-###Note:
+###prerequisites:
 - Assumes you have a buildspec.yml in your current folder
+- Must have Docker installed
+- You will need to build the Docker image that I have included in ./nodejs/6.3.1 based on 
+  the AWS CodeBuild Docker image.
 
-###Also Note:
-- Use this with a Docker image that mimcs the CodeBuild environment.
-- I hope to provide an example soon
+```
+Extended Usage:
+	./kodebuild			- Launches the Docker container with kodebuild inside
+	./kodebuild help		- Shows the Docker build instructions
+```
 
 Contact me:
 - email: ivan@allthethin.gs
