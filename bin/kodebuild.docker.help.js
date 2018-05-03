@@ -10,7 +10,7 @@ function build_instructions() {
 	console.log("To build:\n");
 	console.log("\tgit clone https://github.com/ikluzak/aws-codebuild-docker-images.git");
 	console.log("\tcd aws-codebuild-docker-images/ubuntu/nodejs/6.3.1");
-	console.log("\tdocker build -t aws/kodebuild/nodejs:6.3.1 . ");
+	console.log("\tdocker build -t ikluzak/kodebuild-nodejs:6.3.1 . ");
 	console.log("\n\n");
 
 }
