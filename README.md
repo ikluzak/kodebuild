@@ -30,9 +30,10 @@ Contact me:
 ```
 // TO-DO: add-in a bunch of default CodeBuild environmental variables
 // TO-DO: copy artifacts to S3... 
+// TO-DO: better artifact section support
 // TO-DO: make sure all the phases are here
 // TO-DO: maybe fail the build early if any one section fails
 // TO-DO: create config capability to define your own default docker image easily
-//  - parameter-store  not supported at this time
-//  - cache section not supported at this time
+// TO-DO: parameter-store  not supported at this time
+// TO-DO: cache section not supported at this time
 ```
