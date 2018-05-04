@@ -13,7 +13,7 @@ Usage:
 ###prerequisites:
 - Assumes you have a buildspec.yml in your current folder
 - Must have Docker installed
-- You will need to build the Docker image that I have included in ./nodejs/6.3.1 based on 
+- For now, you will need to build the Docker image that I have included in ./nodejs/6.3.1 based on 
   the AWS CodeBuild Docker image.
 
 ```
@@ -29,8 +29,10 @@ Contact me:
 ###TO-DO's
 ```
 // TO-DO: add-in a bunch of default CodeBuild environmental variables
-// TO-DO: return a status code here or something
-// TO-DO: copy to S3... 
+// TO-DO: copy artifacts to S3... 
 // TO-DO: make sure all the phases are here
 // TO-DO: maybe fail the build early if any one section fails
+// TO-DO: create config capability to define your own default docker image easily
+//  - parameter-store  not supported at this time
+//  - cache section not supported at this time
 ```
