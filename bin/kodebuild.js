@@ -28,7 +28,7 @@ var CMD		= 'run_docker';
 // Check the arguments
 for (var i=1; i < process.argv.length; i++) {
 
-        if (argv[i] === 'help') {
+        if (argv[i] === 'help' || argv[i] === '-h' || argv[i] === '-help') {
 		CMD = 'help';
         }
 
