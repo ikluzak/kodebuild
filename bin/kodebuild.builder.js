@@ -148,7 +148,7 @@ function lets_build_it() {
 
 		runCommands(bs.phases.build, "BUILD", 0, function (b_err, b_res) {
 
-			runCommands(bs.phases.build, "POST_BUILD", 0, function (pb_err, pb_res) {
+			runCommands(bs.phases.post_build, "POST_BUILD", 0, function (pb_err, pb_res) {
 
 			    artifactUpload(bs.artifacts, 0, function (a_err, a_res) {
 

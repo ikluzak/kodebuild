@@ -1,6 +1,6 @@
 {
   "name": "kodebuild",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Code-Build-like module to build your project from your buildspec.yml",
   "main": "bin/kodebuild.js",
   "repository": {
