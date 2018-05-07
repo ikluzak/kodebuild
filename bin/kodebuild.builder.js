@@ -46,8 +46,8 @@ function lets_build_it() {
   console.log(`kodebuild[ENV][${process.pid}]: ${JSON.stringify(bs.env.variables)}`);
 
   // Don't display these...but include them
-  ENV['AWS_ACCESS_KEY'] = process.env.AWS_ACCESS_KEY_ID;
-  ENV['AWS_SECRET_KEY'] = process.env.AWS_SECRET_ACCESS_KEY;
+  ENV['AWS_ACCESS_KEY_ID'] = process.env.AWS_ACCESS_KEY_ID;
+  ENV['AWS_SECRET_ACCESS_KEY'] = process.env.AWS_SECRET_ACCESS_KEY;
 
   //
   // Execute a single command:
