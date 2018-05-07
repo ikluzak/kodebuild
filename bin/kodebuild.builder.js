@@ -40,10 +40,14 @@ function lets_build_it() {
 
   //
   // Define the environment variables for scripts
-  const ENV = bs.env.variables;
+  var ENV = bs.env.variables;
   // TO-DO: add-in a bunch of default CodeBuild environmental variables
   //
   console.log(`kodebuild[ENV][${process.pid}]: ${JSON.stringify(bs.env.variables)}`);
+
+  // Don't display these...but include them
+  ENV['AWS_ACCESS_KEY'] = process.env.AWS_ACCESS_KEY_ID;
+  ENV['AWS_SECRET_KEY'] = process.env.AWS_SECRET_ACCESS_KEY;
 
   //
   // Execute a single command:

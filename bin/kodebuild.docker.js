@@ -11,7 +11,7 @@ const DEFAULT_KODEBUILD_IMAGE = 'ikluzak/kodebuild-nodejs:6.3.1';
 // May want to pass in AWS env variables
 //var cmd = `docker run --rm -it -e AWS_REGION=${AWS_REGION} -e AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY} -e AWS_SECRET_ACCESS_KEY=${AWS_SECRET_KEY} --mount type=bind,source="$(pwd)",target=/codebuild --entrypoint sh ${DEFAULT_KODEBUILD_IMAGE} kodebuild`;
 
-var cmd = `docker run --rm -t --mount type=bind,source="$(pwd)",target=/codebuild ${DEFAULT_KODEBUILD_IMAGE}`;
+var cmd = `docker run --rm -t -e AWS_ACCESS_KEY_ID=${process.env.AWS_ACCESS_KEY_ID} -e AWS_SECRET_ACCESS_KEY=${process.env.AWS_SECRET_ACCESS_KEY} -e AWS_REGION=${process.env.AWS_REGION} --mount type=bind,source="$(pwd)",target=/codebuild ${DEFAULT_KODEBUILD_IMAGE}`;
 
 //
 // Attempt to use exec()
