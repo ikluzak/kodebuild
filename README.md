@@ -1,4 +1,6 @@
 
+[![Known Vulnerabilities](https://snyk.io/test/github/ikluzak/kodebuild/badge.svg?targetFile=package.json)](https://snyk.io/test/github/ikluzak/kodebuild?targetFile=package.json)
+
 # Kodebuild
 
 A kludge to use CodeBuild's buildspec.yml locally
