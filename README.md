@@ -1,5 +1,6 @@
 
 [![Known Vulnerabilities](https://snyk.io/test/github/ikluzak/kodebuild/badge.svg?targetFile=package.json)](https://snyk.io/test/github/ikluzak/kodebuild?targetFile=package.json)
+[![npm version](https://badge.fury.io/js/kodebuild.svg)](https://badge.fury.io/js/kodebuild)
 
 # Kodebuild
 
